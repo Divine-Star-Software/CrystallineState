@@ -1,0 +1,32 @@
+{
+ "sources": [
+  {
+   "dir": "D:/DSSoftware/DSLIBS/crystallineState/out",
+   "fileExtensions": [
+    "js",
+    "d.ts"
+   ],
+   "id": "main"
+  }
+ ],
+ "outputs": [
+  {
+   "dir": "D:/DSSoftware/DSLIBS/crystallineState/electron/out",
+   "sourceID": "main",
+   "codeSection": "All",
+   "keepComments": true
+  },
+  {
+   "dir": "D:/DSSoftware/DSLIBS/crystallineState/electron/app/out",
+   "sourceID": "main",
+   "codeSection": "All",
+   "keepComments": true
+  }
+ ],
+ "codeSections": {
+  "test": {
+   "start": "@ds-test-start",
+   "end": "@ds-test-end"
+  }
+ }
+}
